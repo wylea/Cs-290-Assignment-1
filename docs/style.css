@@ -1,0 +1,374 @@
+/*
+ * Add your CSS styles to this file. THIS IS THE ONE TO TURN IN
+	Wylea Walker Cs 290 walkerwy@oregonstate.edu
+ */
+
+html
+{
+
+	font-family: Roboto;
+	margin:0;
+	background: #d3d3d3;
+	scroll-behavior: smooth;
+}
+.site-title
+{
+	font-size: 20px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+body
+{
+	margin:0px;
+}
+
+h1.site-title
+{
+
+	font-size: 18px;
+	padding-left: 10px;
+	text-decoration: none;
+	background: #03b1fc;
+	color: white;
+	margin: 0;
+	padding: 4px;
+	font-weight: 300;
+	
+}
+
+
+div.twit-content
+{
+	margin-top: 0;
+	padding-top: 0;
+	max-height: 40px;
+	min-width: 80px;
+	padding-left: 20px;
+	padding: 5px;
+	margin: 2px;
+	min-width: 85%;
+	max-width: 85%;
+}
+
+
+article.twit
+{
+
+	align-self: flex-end;
+	border: none;
+	background: white;
+	align-content: center;
+	margin: 2px;
+	display: inline-block;
+	align-content: center;
+	display: flex;
+	padding: 4px;
+	margin: 2px;
+	width: 200px;
+	height: 90px;
+	max-width: 22vw;
+	min-width: 180px; 
+	max-height: 10vh;
+	min-height: 60px;
+	text-align-last: left;
+	display: flexbox;
+	border-radius: 1.5px;
+}
+
+main.twit-container
+{
+	flex-wrap: wrap;
+	margin-top: 30px;
+	display: inline-flex;
+	align-content: center;
+	padding-top: 5px;
+	margin-left: 60px;
+	margin-right: 40px;
+
+}
+
+
+
+input
+{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	border-radius: 2px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+ul
+{
+	align-content: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+
+li.active
+{
+	border-bottom: 2px solid #03b1fc;
+	margin-left: 4px;
+}
+
+
+main
+{
+	max-width: 75vw; 
+	min-width: 25vw;
+	margin-top: 12px;
+	margin-bottom:12px;
+}
+
+#navbar-search-button
+{
+	border: none;
+	background-color: transparent;
+	margin-right: 25px;
+}
+
+input#navbar-search-button:active
+{
+	align-self: center;
+	border: none;
+	background-color: #03b1fc;
+}
+
+.navbar-search-input
+{
+	color: #03b1fc;
+	margin-right: 30px;
+	display: inline-block;
+	width: 80%;
+}
+
+.navbar-search > *
+{
+	background-color: #d3d3d3 ;
+	border-color: transparent;
+	border-color:rgba(0,0,0,0.2);
+	border-width: 0.2px;
+}
+
+
+.navbar-search
+{
+	margin-right: 1px;
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 200px;
+	padding: 6px;;
+	position: center;
+	height: 15px;
+	float: right;
+	right:0;
+	margin-left:auto;
+
+}
+
+.active
+{
+	border-bottom-color: black; 
+	border-bottom: 2px;
+}
+
+.navlist
+{
+	font-size: 9px;
+	background-color: white;
+	flex-direction: row;
+	display: flex;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+button#create-twit-button
+{
+	resize: none;
+	padding: auto;
+	height: 10vh;
+	width: 10vw;
+	border-radius: 50%;
+	box-shadow: 3px 3px 3px rgba(0,0,0, 0.25);
+}
+
+
+
+body #create-twit-button
+{
+	border-width: 0.1vh;
+	max-height: 8.2vh;
+	max-width: 8.2vh;
+	min-height: 8.2vh;
+	min-width: 8.2vh;
+	box-shadow: 20px;
+	border-radius: 50%;
+	border-color: rgba(132, 135, 135 , 0.3);
+	color: white;
+	background-color: red;
+	margin: auto;
+	padding: 3px;
+	resize: none;
+	position: fixed;
+	right: 17px;
+	bottom: 17px;
+	text-decoration-style: none;
+	font-size: 4vh;
+	text-align: center;
+	align-self: center;
+	vertical-align: bottom;
+}
+
+body #create-twit-button:hover
+{
+	max-height: 8.7vh;
+	max-width: 8.7vh;
+	min-height: 8.7vh;
+	min-width: 8.7vh;
+	font-size: 5vh;
+	right: 15.6px;
+	bottom: 15.6px;
+	/*text-decoration-style: bold;*/
+	background-color: #03b1fc;
+	cursor: pointer;
+	vertical-align: bottom;
+	margin: auto;
+}
+
+button .fas.fa-search:hover
+{
+	color: #03b1fc;
+	cursor: pointer;
+}
+
+div.twit-icon
+{
+	width: 20px;
+	padding-right: 0px;
+	margin-right: 0px;
+}
+
+p.twit-text
+{
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+}
+
+
+
+
+
+
+li a {
+	font-size: 13px;
+  display: block;
+  text-align: center;
+  padding: 5px 9px;
+  text-decoration: none;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+
+.active a
+{
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+}
+
+
+
+a:link {
+
+	text-decoration: none;
+  	color: black;
+}
+
+a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+} 
+
+
+li a:hover
+{
+	text-decoration-color: blue;
+	color: none;
+}
+
+.twit-author
+{
+	display: flexbox;
+
+	font-size: 11px;
+	margin: 0;
+	font-weight: bold;
+	text-decoration: none;
+	color: none;
+	border-bottom: blue;
+	width: 160px;
+	height: 10px;
+	max-width: 18vw;
+	text-align-last: right;
+	align-self: right;
+	position: relative;
+	margin-bottom: 1px;
+
+
+}
+p.twit-author a:hover
+{
+	position: relative;
+	top:0;
+	right: 0;
+	font-weight: bold;
+	color: #03b1fc;
+}
+
+ul.navlist a:hover
+{
+	color: #03b1fc;
+	border-bottom-width: 9px;
+	border-bottom-color: blue;
+}
+
+li.navitem.navbar-search
+{
+	align-content: center;
+	padding-top: 3px;
+
+}
+
+
+input#navbar-search-input
+{
+	font-size: 12px;
+	width: 110px;
+	padding-left: 2px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-weight: 100;
+}
+
+input#navbar-search-input:focus
+{
+	background: white;
+}
